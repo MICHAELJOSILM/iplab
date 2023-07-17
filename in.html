@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>Bootstrap Web Page</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">My Website</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="btn btn-primary" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-secondary" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-success" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div id="hero" class="bg-primary text-white text-center py-5">
+    <h1>Welcome to My Portfolio</h1>
+    <p>I showcase my work and skills</p>
+    <a class="btn btn-light mt-3" href="#portfolio">View My Portfolio</a>
+  </div>
+
+  <div id="about" class="container mt-4">
+    <h2>About Me</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium massa et magna aliquet, at fringilla risus posuere. Nullam fringilla malesuada nunc a lacinia. Nam sollicitudin purus eu ligula condimentum, nec mattis lacus euismod.</p>
+  </div>
+
+  <div id="portfolio" class="container mt-4">
+    <h2>Portfolio</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="image1.jpg" class="card-img-top" alt="Image 1">
+          <div class="card-body">
+            <h5 class="card-title">Project 1</h5>
+            <p class="card-text">Description of Project 1</p>
+            <a href="#" class="btn btn-primary">View Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="image2.jpg" class="card-img-top" alt="Image 2">
+          <div class="card-body">
+            <h5 class="card-title">Project 2</h5>
+            <p class="card-text">Description of Project 2</p>
+            <a href="#" class="btn btn-primary">View Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="image3.jpg" class="card-img-top" alt="Image 3">
+          <div class="card-body">
+            <h5 class="card-title">Project 3</h5>
+            <p class="card-text">Description of Project 3</p>
+            <a href="#" class="btn btn-primary">View Details</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="contact" class="container mt-4">
+    <h2>Contact Me</h2>
+    <form>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Your Name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Your Email">
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea class="form-control" id="message" rows="5" placeholder="Your Message"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+  <footer class="bg-light p-3 mt-4 text-center">
+    <p>&copy; 2023 MICHAEL JOSIL M. All rights reserved.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
